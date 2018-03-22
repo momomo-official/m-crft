@@ -1,8 +1,8 @@
 # m-crft
-m-crftは3Dサンドボックスゲームです。  
-3DCGはDxLibを使って実装されています。  
-Windowsでのみ動きます。LinuxとMacには対応していません。
-（本当はMEIT Adventureという名前なのですが、m-crftの方が呼びやすいのでリポジトリ名にしました）
+m-crftは3Dサンドボックスゲームです。  
+3DCGはDxLibを使って実装されています。  
+Windowsでのみ動きます。LinuxとMacには対応していません。  
+（本当はMEIT Adventureという名前なのですが、よく呼ばれていた「m-crft」をリポジトリ名にしました）  
 
 ![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.33.42.png)
 
@@ -16,12 +16,14 @@ Windowsでのみ動きます。LinuxとMacには対応していません。
 ## ダウンロード
 
 実行バイナリは以下のリンクからダウンロードできます。  
-[downloadlink]
+[TODO:link]
 
 ## 開発環境
-Visual Studio 2017 Communityとを使って開発しています。ソリューションファイルが含まれているのでCloneすればそのまま動かすことができますが、  
-DxLibの設定は各自で行っていただく必要があります。Cドライブ直下にDxLibの_プロジェクトに追加すべきファイル_VC用_が置いてある場合は追加の設定は必要ありません。DxLibの設定はこちらのリンクを参照してください。  
-http://dxlib.o.oo7.jp/use/dxuse_vscom2017.html  
+Visual Studio 2017 CommunityとDxLibを使って開発しています。  
+ソリューションファイルが含まれているのでCloneすればそのまま動かすことができますが、DxLibの設定は各自で行っていただく必要があります。  
+Cドライブ直下にDxLibの`プロジェクトに追加すべきファイル_VC用`が置いてあるものとしてプロジェクトの設定をしてあります。  
+Cドライブ直下にない場合はDxLibの設定を行ってください。DxLibの設定はこちらのリンクを参照してください。  
+http://dxlib.o.oo7.jp/use/dxuse_vscom2017.html  
 
 ## 操作方法
 	a:          左に移動  
@@ -57,18 +59,22 @@ Worldは9×9のChunkの集まりです。Chunkは16×16×256個のBlockの集ま
 https://0fps.net/2012/06/30/meshing-in-a-minecraft-game/  
 m-crftでは上記URLでいう、Culling Meshを用いています。さらに少ないメッシュで世界を構築できるGreedy Meshにも挑戦中ですが、変更量が膨大になるためいつになるかわかりません。
 
-[URL]
 ## Shader
 
 ### 影
 影は深度バッファシャドウアルゴリズムによって実装されています。実装は[リンク]にあります。  
-Cascade Shadow Mapping, Variance Shadow Mapping, Gaussian Blurを組み合わせています。  
+
+* Cascade Shadow Mapping
+* Variance Shadow Mapping
+* Gaussian Blur
+
+の三つを組み合わせています。  
 DirectXのチュートリアル  
 [https://msdn.microsoft.com/ja-jp/library/ee416307(v=vs.85).aspx]  
 とリポジトリ  
 [url]  
-を参考にしました。  
-
+を参考にしました。  
+ピーターパン現象などのアーティファクトがかなり目立ちますので、改善の余地がたくさんあります。  
 ### 水面反射
 ![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.39.07.png)
 水面反射はScreen Space Reflection(ssr)によって実装されています。  
@@ -86,16 +92,17 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 ### ライトブルーム 
 ![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.58.png)  
 太陽をまぶしさを表現するための技法です。  
-以下のURLに示す考えで実装されています。  
+以下のURLに示す方法で実装されています。  
 [http://maverickproj.web.fc2.com/pg45.html]
 
 ### ゴッドレイ
 ![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.35.png)  
 木漏れ日のような光の筋を表現するための技法です。  
-以下のURLに示す考えで実装されています。
+以下のURLに示す方法で実装されています。  
 [http://maverickproj.web.fc2.com/pg65.html]
 
 ### カラーライト
 ![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.57.33.png)
-カラーライトは以下のURLに示す方法で実装されています。  
+m-crftではカラーライトがサポートされています。  
+以下のURLに示す方法で実装されています。  
 [https://www.seedofandromeda.com/blogs/29-fast-flood-fill-lighting-in-a-blocky-voxel-game-pt-1]
