@@ -3,7 +3,7 @@ m-crftは3Dサンドボックスゲームです。
 3DCGはDxLibを使って実装されています。  
 Windowsでのみ動きます。LinuxとMacには対応していません。
 
-![ScreenShot]
+![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.19.35.png)
 
 ### m-crftの特徴
 * 無限の広さを持つ世界。
@@ -96,5 +96,5 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 
 ### カラーライト
 [ScreenShot]
-カラーライトは以下のURLに示す方法で実装されています。
+カラーライトは以下のURLに示す方法で実装されています。  
 [https://www.seedofandromeda.com/blogs/29-fast-flood-fill-lighting-in-a-blocky-voxel-game-pt-1]
