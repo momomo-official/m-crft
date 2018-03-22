@@ -91,7 +91,7 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 
 ### ゴッドレイ
 木漏れ日のような光の筋を表現するための技法です。
-[!ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.35.png)
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.35.png)
 以下のURLに示す考えで実装されています。
 [http://maverickproj.web.fc2.com/pg65.html]
 
