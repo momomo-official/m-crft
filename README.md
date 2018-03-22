@@ -19,7 +19,7 @@ Windowsでのみ動きます。LinuxとMacには対応していません。
 [TODO:link]
 
 ## 開発環境
-Visual Studio 2017 CommunityとDxLibを使って開発しています。  
+Visual Studio 2017 CommunityとDxLibを使って開発しています。  
 ソリューションファイルが含まれているのでCloneすればそのまま動かすことができますが、DxLibの設定は各自で行っていただく必要があります。  
 Cドライブ直下にDxLibの`プロジェクトに追加すべきファイル_VC用`が置いてあるものとしてプロジェクトの設定をしてあります。  
 Cドライブ直下にない場合はDxLibの設定を行ってください。DxLibの設定はこちらのリンクを参照してください。  
