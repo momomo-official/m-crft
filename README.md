@@ -1,7 +1,8 @@
 # m-crft
-m-crftは3Dサンドボックスゲームです。  
-3DCGはDxLibを使って実装されています。  
+m-crftは3Dサンドボックスゲームです。  
+3DCGはDxLibを使って実装されています。  
 Windowsでのみ動きます。LinuxとMacには対応していません。
+（本当はMEIT Adventureという名前なのですが、m-crftの方が呼びやすいのでリポジトリ名にしました）
 
 ![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.28.42.png)
 
