@@ -83,15 +83,15 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 アンビエントオクルージョンは以下のURLに示すように実装されています。  
 [http://0fps.wordpress.com/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/]  
 
-### ライトブルーム
-太陽をまぶしく見せるための表現です。  
-![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.58.png)
-以下のURLに示す考えで実装されています。
+### ライトブルーム 
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.58.png)  
+太陽をまぶしさを表現するための技法です。  
+以下のURLに示す考えで実装されています。  
 [http://maverickproj.web.fc2.com/pg45.html]
 
 ### ゴッドレイ
-木漏れ日のような光の筋を表現するための技法です。
-![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.35.png)
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.35.png)  
+木漏れ日のような光の筋を表現するための技法です。  
 以下のURLに示す考えで実装されています。
 [http://maverickproj.web.fc2.com/pg65.html]
 
