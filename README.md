@@ -4,7 +4,7 @@ m-crftは3Dサンドボックスゲームです。  
 Windowsでのみ動きます。LinuxとMacには対応していません。
 （本当はMEIT Adventureという名前なのですが、m-crftの方が呼びやすいのでリポジトリ名にしました）
 
-![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.28.42.png)
+![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.33.42.png)
 
 ### m-crftの特徴
 * 無限の広さを持つ世界。
@@ -70,7 +70,7 @@ DirectXのチュートリアル
 を参考にしました。  
 
 ### 水面反射
-[ScreenShot]
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.39.07.png)
 水面反射はScreen Space Reflection(ssr)によって実装されています。  
 実装は[リンク]にあります。  
 よく用いられるのはカメラを水面の下に持ってきて、そこから得られる画像を水面に描画する方法ですが、この方法は水面が一定の高さにあるシーンでしか用いることができません。  
@@ -85,17 +85,17 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 
 ### ライトブルーム
 太陽をまぶしく見せるための表現です。  
-[ScreenShot]
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.58.png)
 以下のURLに示す考えで実装されています。
 [http://maverickproj.web.fc2.com/pg45.html]
 
 ### ゴッドレイ
 木漏れ日のような光の筋を表現するための技法です。
-[ScreenShot]
+[!ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.35.png)
 以下のURLに示す考えで実装されています。
 [http://maverickproj.web.fc2.com/pg65.html]
 
 ### カラーライト
-[ScreenShot]
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.57.33.png)
 カラーライトは以下のURLに示す方法で実装されています。  
 [https://www.seedofandromeda.com/blogs/29-fast-flood-fill-lighting-in-a-blocky-voxel-game-pt-1]
