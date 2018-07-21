@@ -6,6 +6,13 @@ Windowsでのみ動きます。LinuxとMacには対応していません。
 
 ![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.33.42.png)
 
+### なぜm-crftを作ってるの？目的は？
+* 3DCGの表現技法を一通り扱ってみるための題材として
+	* 水がどんどんきれいになっていくのが楽しい
+* ボクセルエンジンの最適化を楽しむため
+* [`ももも`](https://twitter.com/mcrft_momomo)がかわいいため
+
+
 ### m-crftの特徴
 * 無限の広さを持つ世界。
 * パーリンノイズによる自然な地形。4つのバイオームがあります。
@@ -103,10 +110,3 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 m-crftではカラーライトがサポートされています。  
 以下のURLに示す方法で実装されています。  
 [https://www.seedofandromeda.com/blogs/29-fast-flood-fill-lighting-in-a-blocky-voxel-game-pt-1]
-
-
-### なぜm-crftを作ってるの？目的は？
-* 3DCGの表現技法を一通り扱ってみるための題材として
-	* 水がどんどんきれいになっていくのが楽しい
-* ボクセルエンジンの最適化を楽しむため
-
