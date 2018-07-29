@@ -105,6 +105,11 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 以下のURLに示す方法で実装されています。  
 [http://maverickproj.web.fc2.com/pg65.html]
 
+### フォグ  
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-07-29%2021.19.20.png) 
+遠景には距離フォグをかけています。以下のURLを参考にしました。  
+[https://wgld.org/d/webgl/w060.html]
+
 ### カラーライト
 ![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.57.33.png)
 m-crftではカラーライトがサポートされています。  
