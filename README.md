@@ -4,7 +4,7 @@ m-crftは3Dサンドボックスゲームです。
 Windowsでのみ動きます。LinuxとMacには対応していません。  
 （本当はMEIT Adventureという名前なのですが、よく呼ばれていた「m-crft」をリポジトリ名にしました）  
 
-![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.33.42.png)
+![Screenshot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-07-29%2021.23.33.png)
 
 ### なぜm-crftを作ってるの？目的は？
 * 3DCGの表現技法を一通り扱ってみるための題材として
@@ -83,7 +83,7 @@ DirectXのチュートリアル
 を参考にしました。  
 ピーターパン現象などのアーティファクトがかなり目立ちますので、改善の余地がたくさんあります。  
 ### 水面反射
-![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.39.07.png)
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-07-29%2021.18.10.png)
 水面反射はScreen Space Reflection(ssr)によって実装されています。  
 実装は[リンク]にあります。  
 よく用いられるのはカメラを水面の下に持ってきて、そこから得られる画像を水面に描画する方法ですが、この方法は水面が一定の高さにあるシーンでしか用いることができません。  
@@ -99,7 +99,7 @@ ssrを用いると画面外にある物体を水面に反射させることは�
 [http://0fps.wordpress.com/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/]  
 
 ### ライトブルーム・ゴッドレイ
-![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-03-22%2023.45.35.png)  
+![ScreenShot](https://raw.githubusercontent.com/momomo-official/m-crft/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202018-07-29%2021.04.04.png)  
 太陽に関する表現技法です。  
 ライトブルームは太陽をまぶしく見せる表現、ゴッドレイは木漏れ日のような表現です。  
 以下のURLに示す方法で実装されています。  
